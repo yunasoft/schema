@@ -1,0 +1,13 @@
+{
+    "name": "yunasoft/schema",
+    "description": "schema.org components",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saint",
+            "email": "iamsaint@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
