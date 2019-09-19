@@ -1,13 +1,26 @@
 {
     "name": "yunasoft/schema",
     "description": "schema.org components",
-    "license": "MIT",
+    "keywords": [
+        "schema.org"
+    ],
+    "homepage": "https://github.com/yunasoft/schema",
+    "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Saint",
-            "email": "iamsaint@yandex.ru"
+            "name": "Alexey Chernousov",
+            "email": "iamsaint@yandex.ru",
+            "role": "Maintainer"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yunasoft\\schema\\": "src"
+        }
+    }
 }
